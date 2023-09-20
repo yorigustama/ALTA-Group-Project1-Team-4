@@ -1,11 +1,9 @@
 package starter.stepdef;
 
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
-import starter.dummyjson.GetListUser;
 import starter.dummyjson.GetSingleUser;
 
 public class GetSingleUserStepDef {
