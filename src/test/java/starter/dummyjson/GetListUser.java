@@ -6,10 +6,15 @@ import starter.utils.Constants;
 
 public class GetListUser {
     public static String GET_LIST_USER = Constants.BASE_URL+"/user";
+    public static String GET_LIST_USER_INVALID = Constants.BASE_URL+"/user/{id}";
 
     @Step("Get list user")
     public void setGetListUser(){
         SerenityRest.given();
+    }
+    @Step("Get list user invalid")
+    public void setGetListUserInvalid(int id){
+        SerenityRest.given().pathParam("id", id);
     }
 
 }

@@ -25,4 +25,15 @@ public class GetListUserStepDef {
     public void statusCodeShouldBeOK(int ok) {
         SerenityRest.then().statusCode(ok);
     }
+
+
+    @Given("Get list user invalid parameter id {int}")
+    public void getListUserInvalidParameterId(int id) {
+        getListUser.setGetListUserInvalid(id);
+    }
+
+    @When("Send request get list invalid")
+    public void sendRequestGetListInvalid() {
+        SerenityRest.when().get(GetListUser.GET_LIST_USER_INVALID);
+    }
 }
