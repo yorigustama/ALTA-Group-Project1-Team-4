@@ -36,4 +36,5 @@ public class GetListUserStepDef {
     public void sendRequestGetListInvalid() {
         SerenityRest.when().get(GetListUser.GET_LIST_USER_INVALID);
     }
+
 }
