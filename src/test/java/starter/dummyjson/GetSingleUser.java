@@ -12,4 +12,5 @@ public class GetSingleUser {
         SerenityRest.given()
                 .pathParam("id",id);
     }
+
 }
