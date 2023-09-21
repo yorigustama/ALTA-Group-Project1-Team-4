@@ -17,7 +17,7 @@ public class PatchUpdateUserStepDef {
 
     @Steps
     PatchUpdateUser patchUpdateUser;
-    @Given("Update user patch with valid json {string} and user id {int}")
+    @Given("Update user patch with json {string} and user id {int}")
     public void updateUserPatchWithValidJsonAndUserId(String jsonFile, int id) {
         File json = new File(Constants.REQ_BODY_POST_CREATE_NEW_USER + jsonFile);
         patchUpdateUser.setPatchUpdateUser(json, id);
