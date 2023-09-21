@@ -16,7 +16,7 @@ import java.io.File;
 public class PostCreateNewUserStepDef {
     @Steps
     PostCreateNewUser postCreateNewUser;
-    @Given("Create new user with valid json {string}")
+    @Given("Create new user with json {string}")
     public void createNewUserWithValidJson(String jsonFile) {
         File json = new File(Constants.REQ_BODY_POST_CREATE_NEW_USER+jsonFile);
         postCreateNewUser.setPostCreateUser(json);
