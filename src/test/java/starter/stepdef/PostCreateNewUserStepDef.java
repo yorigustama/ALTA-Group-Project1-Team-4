@@ -38,4 +38,9 @@ public class PostCreateNewUserStepDef {
         File json = new File(Constants.JSON_SCHEMA+jsonFile);
         SerenityRest.and().assertThat().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
+
+    @Then("Status code should be {int} Bad Request")
+    public void statusCodeShouldBeBadRequest(int badReques) {
+        SerenityRest.then().statusCode(badReques);
+    }
 }
