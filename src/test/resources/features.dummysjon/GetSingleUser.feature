@@ -5,4 +5,5 @@ Feature: ALTA QE BATCH 12
     Given Get single user with valid parameter id 2
     When Send request get single user
     Then Status code should be 200 OK
-#    And Respon single user body page should id 2
+    And Respon single user body page should id 2
+    And Validate get list user JSON schema "SingleUserSchema.json"

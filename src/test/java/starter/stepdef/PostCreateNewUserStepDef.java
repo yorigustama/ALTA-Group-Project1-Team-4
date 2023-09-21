@@ -1,8 +1,11 @@
 package starter.stepdef;
 
+import com.fasterxml.jackson.databind.jsonschema.JsonSchema;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
 import starter.dummyjson.PostCreateNewUser;
@@ -28,5 +31,11 @@ public class PostCreateNewUserStepDef {
     public void statusCodeShouldBeCreated(int created) {
         SerenityRest.then().statusCode(created);
 
+    }
+
+    @And("Validate post create JSON schema {string}")
+    public void validatePostCreateJSONSchema(String jsonFile) {
+        File json = new File(Constants.JSON_SCHEMA+jsonFile);
+        SerenityRest.and().assertThat().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
 }
