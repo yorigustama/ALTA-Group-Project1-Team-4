@@ -8,4 +8,6 @@ public class Constants {
     public static String JSON = DIR+"/src/test/resources/JSON/";
     public static String REQ_BODY_POST_CREATE_NEW_USER = JSON+"ReqBody/";
 
+    public static String JSON_SCHEMA = JSON+"JSONSchema/";
+
 }
