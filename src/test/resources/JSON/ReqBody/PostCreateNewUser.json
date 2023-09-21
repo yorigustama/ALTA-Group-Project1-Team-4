@@ -1,6 +1,5 @@
 {
-  firstName: 'Muhammad',
-  lastName: 'Ovi',
-  age: 250,
-  /* other user data */
+  "firstName": "Muhammad',
+  "lastName": "Ovi",
+  "age": 250,
 }
