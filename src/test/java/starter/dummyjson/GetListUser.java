@@ -17,4 +17,5 @@ public class GetListUser {
         SerenityRest.given().pathParam("page", page);
     }
 
+
 }
