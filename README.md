@@ -4,6 +4,10 @@ Link Test Case Manual : (https://docs.google.com/spreadsheets/d/1cpNXLFxVTSTK8CH
 
 Gambar Report Test Overall
 ![Screenshot 2023-09-22 231732](https://github.com/yorigustama/ALTA-Group-Project1-Team-4/assets/50369208/305016f1-679e-48b8-acbe-8987d0c10ae0)
+![image](https://github.com/yorigustama/ALTA-Group-Project1-Team-4/assets/50369208/0c09efec-17e3-4c76-abb1-c2138e278e77)
+![image](https://github.com/yorigustama/ALTA-Group-Project1-Team-4/assets/50369208/a0e8f831-75a1-4cc9-b3dc-38fa13df4fc5)
+
+
 
 
 Gambar Coverag
