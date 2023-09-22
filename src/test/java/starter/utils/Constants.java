@@ -11,4 +11,6 @@ public class Constants {
 
 
 
+    public static String JSON_SCHEMA = JSON+"JSONSchema/";
+
 }
