@@ -3,8 +3,13 @@
 Link Test Case Manual : (https://docs.google.com/spreadsheets/d/1cpNXLFxVTSTK8CHRYQ4Lqe9HrjXcOFSEtLOziQfAY9Y/edit?hl=id#gid=0)
 
 Gambar Report Test Overall
+![Screenshot 2023-09-22 231732](https://github.com/yorigustama/ALTA-Group-Project1-Team-4/assets/50369208/305016f1-679e-48b8-acbe-8987d0c10ae0)
+
 
 Gambar Coverag
+![image](https://github.com/yorigustama/ALTA-Group-Project1-Team-4/assets/50369208/2f7b7d88-62e1-4f83-a251-2dd84d572aac)
+
+
 
 Tools & Technology Stack : Trello, Postman
 
