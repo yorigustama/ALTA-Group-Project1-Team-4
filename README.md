@@ -20,6 +20,11 @@ How To Run Project :
 3. Menjalankan Tes: mvn clean test
 4. Melihat Hasil Tes: Silakan buka sebuah issue atau hubungi maintainer repositori.
 
+Team Member.
+1. Yori Fiandika
+2. Irma Wahyuni
+3. Eka Aprillia
+
 
 ## Want to learn more?
 For more information about Serenity BDD, you can read the [**Serenity BDD Book**](https://serenity-bdd.github.io/theserenitybook/latest/index.html), the official online Serenity documentation source. Other sources include:
