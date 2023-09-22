@@ -7,4 +7,5 @@ public class DummyJsonResponses {
     public static String DATA_ID = "id";
     public static String FIRST_NAME = "firstName";
     public static String LAST_NAME = "lastName";
+
 }
