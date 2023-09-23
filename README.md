@@ -12,6 +12,8 @@ Gambar Report Test Overall
 
 Gambar Coverag
 ![image](https://github.com/yorigustama/ALTA-Group-Project1-Team-4/assets/50369208/2f7b7d88-62e1-4f83-a251-2dd84d572aac)
+![Uploading image.png…]()
+
 
 
 
